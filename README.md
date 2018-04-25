@@ -1,6 +1,7 @@
 # Setup time: 15 minutes max start to finish with cleanly imaged mac
 
 Type the following into the terminal:
+
 `mkdir -p ~/Downloads`
 
 `cd ~/Downloads`

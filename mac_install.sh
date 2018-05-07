@@ -8,6 +8,9 @@ fi
 
 brew tap caskroom/versions
 brew cask list java8 &>/dev/null || brew cask install java8
+brew cask list intellij-idea-ce &>/dev/null || brew cask install intellij-idea-ce
+brew cask list iterm2 &>/dev/null || brew cask install iterm2
+brew list git &>/dev/null || brew install git
 brew list cf-cli &>/dev/null || brew install cloudfoundry/tap/cf-cli
 brew list mysql &>/dev/null || brew install mysql
 brew list gradle &>/dev/null || brew install gradle
